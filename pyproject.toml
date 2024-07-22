@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "task21-07"
+version = "0.1.0"
+description = ""
+authors = ["Unti1 <kostyuchenko.work@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.1"
+celery = "^5.4.0"
+asyncpg = "^0.29.0"
+sqlalchemy = "^2.0.31"
+redis = "^5.0.7"
+uvicorn = {extras = ["standart"], version = "^0.30.3"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
